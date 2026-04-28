@@ -1,0 +1,127 @@
+body{
+    background-color: #B46496;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 100%;
+    height: fit-content;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 0;
+    gap: 20px;
+}
+
+.hero{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.bg-image{
+    margin: -10px, 0, -10px, 0;
+    background-size: contain;
+    max-width: 583px;
+    max-height: 100vh;
+}
+
+.credits{
+    position: absolute;
+    top:630px;
+    width: 85%;
+    background-color: black (20%);
+    text-align: center;
+    color: white;
+}
+
+.credits a{
+    color: white;
+    text-decoration: underline;
+}
+
+.label-input{
+    display: flex;
+    flex-direction: column;
+    width: 332px;
+    height: fit-content;
+    color: white;
+    gap: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+
+input{
+    border-radius: 5px;
+    padding-inline: 10px 10px;
+    font-size: 20px;
+    height: 48px fit-content;
+    padding: 4px 8px;
+    border: none;
+    
+}
+
+.form-heading{
+    font-size: 36px;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+}
+.form-grid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.grid-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 39px;
+}
+
+button{
+    font-size: 20px;
+    background-color: #FFE1E1;
+    color: black;
+    width: 200px;
+    height: 60px;
+    padding-inline: 15px 15px;
+    border-radius: 10px;
+    border:none;
+    margin-top: 40px;
+}
+
+button:hover{
+    background-color: black;
+    color: #FFE1E1;
+}
+
+.sign-up-form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 10px;
+}
+
+.button-cc{
+    color: white;
+    font-size: 16px;
+}
+.button-cc a{
+    color: greenyellow;
+}
